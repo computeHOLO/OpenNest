@@ -16,6 +16,9 @@
 
 ---
 [![License](https://img.shields.io/badge/license-GNUv3-blue?style=flat)](LICENSE)
+![Build](https://img.shields.io/badge/build-not_yet-red?style=flat)
+![Version](https://img.shields.io/badge/version-0.1.0-yellow?style=flat)
+
 
 ## ✨ Features
 

@@ -11,7 +11,7 @@
 
 <p align="center">
   OpenNest is an open‑source, self‑hosted parental control and digital safety platform.  
-  Transparent, customizable, and built for modern families.
+  honest, customizable, and built for modern families.
 </p>
 
 ---
@@ -23,10 +23,9 @@
 ## ✨ Features
 
 - 🛡️ **Protection** — Block unsafe websites and apps at the network level.  
-- 📊 **Insights** — Real‑time dashboards with activity trends and alerts.  
-- ⚙️ **Customization** — Modular plugins for screen time, safe search, and keyword monitoring.  
-- 🌐 **Open Source** — Transparent, community‑driven, privacy‑respecting design.  
-- 🎮 **Fun Factor** — Gamified dashboards and kid‑friendly companion apps.  
+- 📊 **Insights** — Real‑time dashboards with alerts.  
+- ⚙️ **Customization** — Plugins for screen time, and safe search.
+- 🌐 **Open Source** — Honest, community‑driven, privacy‑respecting design.   
 
 ---
 

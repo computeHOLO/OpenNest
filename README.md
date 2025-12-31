@@ -2,7 +2,7 @@
   <img src="docs/logo.png" alt="OpenNest Logo" width="200"/>
 </p>
 ---
-[![License](https://img.shields.io/badge/license-GNUv3-blue?style=flat)](LICENSE)
+
 
 <p align="center">
   <h1>🪺 OpenNest</h1>
@@ -13,7 +13,7 @@
   OpenNest is an open‑source, self‑hosted parental control and digital safety platform.  
   Transparent, customizable, and built for modern families.
 </p>
-
+[![License](https://img.shields.io/badge/license-GNUv3-blue?style=flat)](LICENSE)
 ---
 
 ## ✨ Features

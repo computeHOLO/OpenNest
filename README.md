@@ -30,8 +30,4 @@
 ---
 
 ## 🚀 Getting Started
-
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/computeHOLO/opennest.git
-   cd opennest
+    Not Yet Sadly...

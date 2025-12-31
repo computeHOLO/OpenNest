@@ -8,8 +8,21 @@ export default function Home() {
   const [rules, setRules] = useState<Rule[]>([])
   const [domain, setDomain] = useState('')
 
+  const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null
+
   const load = async () => {
-    const res = await fetch('http://localhost:8080/rules')
+    if (!token) {
+      window.location.href = '/login'
+      return
+    }
+    const res = await fetch('http://localhost:8080/rules', {
+      headers: { Authorization: `Bearer ${token}` }
+    })
+    if (res.status === 401) {
+      localStorage.removeItem('token')
+      window.location.href = '/login'
+      return
+    }
     const data = await res.json()
     setRules(data)
   }
@@ -17,10 +30,10 @@ export default function Home() {
   useEffect(() => { load() }, [])
 
   const addRule = async () => {
-    if (!domain) return
+    if (!domain || !token) return
     await fetch('http://localhost:8080/rules', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
       body: JSON.stringify({ domain })
     })
     setDomain('')
@@ -28,7 +41,11 @@ export default function Home() {
   }
 
   const deleteRule = async (d: string) => {
-    await fetch(`http://localhost:8080/rules/${encodeURIComponent(d)}`, { method: 'DELETE' })
+    if (!token) return
+    await fetch(`http://localhost:8080/rules/${encodeURIComponent(d)}`, {
+      method: 'DELETE',
+      headers: { Authorization: `Bearer ${token}` }
+    })
     load()
   }
 

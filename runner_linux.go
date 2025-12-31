@@ -44,19 +44,19 @@ func runBackground(name string, args ...string) *exec.Cmd {
 }
 
 func main() {
-    fmt.Println("🪺 OpenNest Runner")
+    fmt.Println("🪺 OpenNest Linux Runner")
 
     if !checkDep("go") {
-        askInstall("go", []string{"brew", "install", "go"}) // macOS
+        askInstall("go", []string{"sudo", "apt", "install", "-y", "golang"})
     }
     if !checkDep("python3") {
-        askInstall("python3", []string{"brew", "install", "python"}) // macOS
+        askInstall("python3", []string{"sudo", "apt", "install", "-y", "python3"})
     }
     if !checkDep("pip3") {
-        askInstall("pip3", []string{"python3", "-m", "ensurepip"})
+        askInstall("pip3", []string{"sudo", "apt", "install", "-y", "python3-pip"})
     }
     if !checkDep("npm") {
-        askInstall("npm", []string{"brew", "install", "node"}) // macOS
+        askInstall("npm", []string{"sudo", "apt", "install", "-y", "npm"})
     }
     if !checkDep("uvicorn") {
         askInstall("uvicorn", []string{"pip3", "install", "uvicorn[standard]"})

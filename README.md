@@ -3,6 +3,7 @@
 </p>
 
 ---
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 <p align="center">
   <h1>🪺 OpenNest</h1>

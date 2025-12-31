@@ -2,17 +2,12 @@
   <img src="docs/logo.png" alt="OpenNest Logo" width="200"/>
 </p>
 ---
+# 🪺 OpenNest
 
+[![License](https://img.shields.io/badge/license-GNUv3-blue?style=flat)](LICENSE)
 
-<p align="center">
-  <h1>🪺 OpenNest</h1>
-  <em>Your Family’s Digital Safe Haven</em>
-</p>
+OpenNest is your family’s digital safe haven — open source, transparent, and customizable.
 
-<p align="center">
-  OpenNest is an open‑source, self‑hosted parental control and digital safety platform.  
-  Transparent, customizable, and built for modern families.
-</p>
 [![License](https://img.shields.io/badge/license-GNUv3-blue?style=flat)](LICENSE)
 ---
 

@@ -33,5 +33,5 @@
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/yourusername/opennest.git
+   git clone https://github.com/computeHOLO/opennest.git
    cd opennest

@@ -1,7 +1,7 @@
 <p align="center">
   <img src="docs/logo.png" alt="OpenNest Logo" width="200"/>
 </p>
-![Static Badge](https://img.shields.io/badge/license-GNU_V3-green?style=flat)
+![Static Badge](https://img.shields.io/badge/license-GNUv3-blue?style=flat)
 ---
 
 <p align="center">
